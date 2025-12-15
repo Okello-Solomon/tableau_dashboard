@@ -1,6 +1,46 @@
-**Netflix Content Analysis Dashboard Overview**
+# Netflix Content Analytics Dashboard
 
-This visualization is a component of a larger project designed to explore and analyze the Netflix content library. This specific dashboard provides a dynamic, single-screen summary of key statistics and content distribution.
+## Project Overview
+
+This dashboard provides a deep-dive analysis of the Netflix content library, tracking key metrics, release trends, and geographical distribution.  
+The goal is to visually represent the evolution and composition of content on the world's leading streaming platform, offering insights into content strategy and library demographics.
+
+<details>
+<summary><strong> View Project Details</strong></summary>
+
+### Key Insights & Metrics
+The dashboard immediately highlights the scale of the content library and its structure:
+
+- **Total Programs:** 8,807  
+- **Total Titles:** 8,804  
+- **Movie Count:** 6,131  
+- **TV Show Count:** 2,676  
+- **Overall Dominance:** Movies make up the majority of the content  
+- **Average Duration (Movies):** 124 min
+
+### Detailed Visualizations and Analysis
+The dashboard segments the content data to deliver actionable insights:
+
+#### Content Volume and Growth (Total Movies and TV Shows by Year Added)
+- The platform saw explosive growth in content added starting around 2014-2015  
+- The largest volume of both Movies and TV Shows was added in the 2019-2020 timeframe  
+- A significant drop in added content is observed in 2021
+
+#### Top 10 Rating Distribution
+- The most common rating on the platform is TV-MA (2,931 titles), followed by TV-14 (1,930 titles), and R (788 titles)  
+- This indicates a high proportion of content aimed at mature audiences
+
+#### Global Content Production (Total Movies and TV Shows by Country)
+- The visualization highlights the primary geographical sources of the content, with a clear focus on certain regions
+
+### Tools Used
+- **Visualization Platform:** Tableau
+
+### Data Source
+- [Netflix Titles Data Set on Kaggle](https://www.kaggle.com/datasets/shailajakodag1/netflix-titlescsv)
+
+</details>
+
 
 ![image alt](https://github.com/Okello-Solomon/tableau_dashboard/blob/b638811e1f00971600757371807d785c8dd36894/netflix_analysis_dashboard.png)
 
@@ -46,7 +86,7 @@ The dashboard segments the workforce data to deliver actionable insights on orga
 - **Geographical Distribution of Employees:** Maps the employee concentration across the United States.
 
 ### Tools Used
-- **Visualization Platform:** Power BI
+- **Visualization Platform:** Tableau
 
 ### Data Source
 - [Human Resources Data Set on Kaggle](https://www.kaggle.com/datasets/rhuebner/human-resources-data-set)
