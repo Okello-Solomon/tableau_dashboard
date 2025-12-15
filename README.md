@@ -1,4 +1,4 @@
-<span style="color:red">**Netflix Content Analysis Dashboard Overview**</span>
+##Netflix Content Analysis Dashboard Overview
 
 This visualization is a component of a larger project designed to explore and analyze the Netflix content library. This specific dashboard provides a dynamic, single-screen summary of key statistics and content distribution.
 
