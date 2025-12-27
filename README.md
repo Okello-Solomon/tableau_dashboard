@@ -205,4 +205,4 @@ Built entirely in Tableau, leveraging donut charts, packed bubbles, stacked bar 
 NYC Airbnb Open Data - Kaggle / Inside Airbnb
 **Source:** [Contains detailed listing-level records for the New York City region](https://www.kaggle.com/datasets/arianazmoudeh/airbnbopendata)
 
-![image alt]()
+![image alt](https://github.com/Okello-Solomon/tableau_dashboards/blob/7ebace592581bf4da44156b71dc51c6d925e447f/Airbnb%20NYC%20Market%20Analytics%20Dashboard.PNG)
