@@ -96,3 +96,118 @@ The dashboard segments the workforce data to deliver actionable insights on orga
 
 
 ![image alt](https://github.com/Okello-Solomon/tableau_dashboard/blob/ca5e7e7e57794b4e4c7a3a2dca457a573fdb0905/HR%20Analytics%20Dashboard.png)
+
+
+
+🏠 Airbnb NYC Market Analysis Dashboard
+🎯 Project Overview
+
+This interactive Tableau dashboard delivers a real-time, in-depth analysis of the New York City Airbnb marketplace. Analyzing over 48,895 active listings across all five boroughs, the project provides a comprehensive view of urban hospitality trends, host professionalization, availability patterns, and pricing dynamics.
+
+The primary objective is to translate complex market data into clear, actionable insights that help stakeholders understand regional supply-and-demand dynamics within the short-term rental ecosystem.
+
+📊 Key Insights & Metrics
+
+The dashboard provides an immediate snapshot of market scale and performance benchmarks:
+
+Total Market Volume: 48,895 unique Airbnb listings across New York City
+
+Inventory Composition:
+
+Entire Home/Apt: 51.97% (dominant category)
+
+Private Room: 45.66%, reflecting a strong secondary market presence
+
+Dynamic Performance Metrics:
+A KPI header allows users to toggle between Average Host Listings, Average Availability (365), and other selected averages, revealing how performance trends vary across boroughs in real time.
+
+🔍 Detailed Visualizations and Analysis
+📊 Dynamic KPI Header
+
+Description:
+Displays real-time average metrics based on the current dashboard selection.
+
+Functional Logic:
+KPIs dynamically update to provide a high-level performance summary. Users can switch between selected averages to gain a consolidated view of pricing, availability, and host activity across neighbourhood groups.
+
+📈 Market Share by Room Type (Donut Chart)
+
+Description:
+A proportional breakdown of Airbnb accommodation categories, including Entire Home/Apt, Private Room, and Shared Room.
+
+Strategic Insight:
+This visualization highlights dominant accommodation types, offering insights into host strategies, market structure, and the diversity of stay options within the selected boroughs.
+
+📍 Availability 365 Analysis (Packed Bubble Chart)
+
+Description:
+Measures listing availability across a 365-day calendar year, with bubble size representing total availability.
+
+Analytical Logic:
+
+Larger bubbles indicate listings that are frequently open for booking, suggesting higher vacancy or lower occupancy
+
+Smaller bubbles often reflect high-demand areas with consistently booked properties
+
+This view serves as a proxy for demand intensity and occupancy behavior across neighbourhood groups.
+
+🗺️ Market Dynamics by Neighbourhood (Stacked Bar Chart)
+
+Description:
+Displays the distribution of Airbnb activity across neighbourhood groups, segmented by room type.
+
+Interactive Feature:
+Includes a “Selected Measures” parameter that allows users to dynamically switch the Y-axis between:
+
+Number of Listings
+
+Number of Reviews
+
+Host Listings Count
+
+Average Price
+
+Analytical Purpose:
+Enables exploration of how inventory volume, demand intensity, and pricing power vary across boroughs and room types.
+
+🏆 Host & Regional Dominance (Top 10 Leaderboard)
+
+Description:
+Ranks the Top 10 Host Names or Neighbourhood Groups by total number of listings.
+
+Professional Insight:
+A “Chosen Dimension” parameter dynamically updates the leaderboard to reveal:
+
+Dominant professional hosts
+
+Boroughs with the highest concentration of Airbnb inventory
+
+This analysis highlights market concentration and professionalization trends within the NYC Airbnb ecosystem.
+
+🛠️ Technical Features
+
+Global Interactive Slicer:
+Neighbourhood Group filter (Bronx, Brooklyn, Manhattan, Queens, Staten Island) applied consistently across all visuals
+
+Parameter-Driven Exploration:
+“Chosen Dimension” and “Averages” parameters allow users to pivot analytical perspectives without leaving the dashboard
+
+Visualization Platform:
+Built entirely in Tableau, leveraging donut charts, packed bubbles, stacked bar charts, calculated fields, and advanced dashboard actions
+
+📂 Data Source
+
+NYC Airbnb Open Data — Kaggle / Inside Airbnb
+Contains detailed listing-level records for the New York City region
+
+⭐ Portfolio Value
+
+This project demonstrates strong capability in:
+
+Interactive Tableau dashboard design
+
+Parameter-driven analysis
+
+Market storytelling for urban economics and real estate
+
+Translating complex datasets into decision-ready insights
